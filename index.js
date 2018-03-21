@@ -43,6 +43,8 @@ function createRock(x) {
 
   rock.className = 'rock'
   rock.style.left = `${x}px`
+  
+    GAME.appendChild(rock)
 
   // Hmmm, why would we have used `var` here?
   var top = 0
