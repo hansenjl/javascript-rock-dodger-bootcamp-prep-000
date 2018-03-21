@@ -107,6 +107,11 @@ function createRock(x) {
  */
 function endGame() {
   window.clearInterval()
+  window.removeEventListener()
+  for (let i = 0; i < ROCKS.length; i++) {
+        let rock = ROCKS[i]
+        i.remove
+      }
 }
 
 function moveDodger(e) {
