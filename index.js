@@ -74,7 +74,7 @@ function createRock(x) {
      
      if(checkCollision(rock)){
        endGame()
-     } else if (parseInt(rock.style.top,10) > 0){
+     } else if (parseInt(rock.style.top,10) < GAME_HEIGHT){
        moveRock()
      } else {
        rock.remove()
